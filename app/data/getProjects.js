@@ -7,6 +7,6 @@ export async function getStoredProjects() {
     const storedProjects = data || [];
     return storedProjects;
   } catch (error) {
-    throw new Error(`Server error: fetching progects`)
+    throw new Error(`Server error: fetching projects`)
   }
 }
